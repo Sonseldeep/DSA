@@ -1,0 +1,1 @@
+PrintTriangle(n - 1);
