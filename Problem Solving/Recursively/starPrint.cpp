@@ -18,7 +18,7 @@ void PrintTriangle(int n)
   if (n > 0)
   {
     PrintRow(n);
-    PrintTriangle(n - 1);
+    // PrintTriangle(n - 1);
   }
 }
 int main()
