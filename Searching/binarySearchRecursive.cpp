@@ -5,7 +5,7 @@ int BInarySearchRecursive(int arr[], int low, int high, int target)
 
   while (low <= high)
   {
-    int mid = (low + high) / 2;
+    int mid = low + (high - low) / 2; // to overcome the integer overflow;
 
     if (target == arr[mid])
     {
